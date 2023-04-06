@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WebApplicationRazor.Core.Model;
+using WebApp1.Core.Model;
 
-namespace WebApplicationRazor.Core.Interfaces;
+namespace WebApp1.Core.Interfaces;
 
 public interface IRepository<T> where T : BaseEntity
 {
